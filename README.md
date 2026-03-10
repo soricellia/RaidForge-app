@@ -1,6 +1,6 @@
 # RaidForge
 
-A desktop tool for Raid: Shadow Legends that reads your account(s) data directly from the running game and exports it as structured JSON. This is a prototype until i get something working on the web browser. 
+A desktop tool for Raid: Shadow Legends that reads your account(s) data directly from the running game and exports it as structured JSON. This is a prototype until I get something working on the web browser. 
 
 ## What It Does
 
