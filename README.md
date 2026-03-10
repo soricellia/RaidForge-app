@@ -70,6 +70,7 @@ The tool opens the game with read-only access and can be closed at any time with
 
 | Problem | Solution |
 |---------|----------|
+| Windows SmartScreen warning | Click **More info** → **Run anyway**. This is normal for unsigned apps and only appears once. |
 | "No game detected" | Make sure Raid is running and you're past the login screen. |
 | "Failed to attach" | Right-click RaidForge and select **Run as Administrator**. |
 | "AppModel not found" | The game is still loading. Wait until you're on the main screen and try again. |
