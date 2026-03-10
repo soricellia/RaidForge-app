@@ -1,6 +1,6 @@
 # RaidForge
 
-A desktop tool for Raid: Shadow Legends that reads your account(s) data directly from the running game and exports it as structured JSON. This is a prototype until I get something working on the web browser.
+A desktop tool for Raid: Shadow Legends that reads your account(s) data directly from the running game and exports it as structured JSON. This is a prototype until i get something working on the web browser. 
 
 ## What It Does
 
@@ -60,7 +60,7 @@ RaidForge is strictly **read-only**. It does not:
 - Modify any game files on disk
 - Run anything inside the game process
 
-The tool opens the game with read-only access and can be closed at any time with zero impact on the game.
+The tool opens the game with read-only access (`PROCESS_VM_READ | PROCESS_QUERY_INFORMATION`) and can be closed at any time with zero impact on the game.
 
 ## Troubleshooting
 
@@ -70,7 +70,7 @@ The tool opens the game with read-only access and can be closed at any time with
 | "No game detected" | Make sure Raid is running and you're past the login screen. |
 | "Failed to attach" | Right-click RaidForge and select **Run as Administrator**. |
 | "AppModel not found" | The game is still loading. Wait until you're on the main screen and try again. |
-| "Game build mismatch" warning | The game was recently updated. RaidForge may need an update to match — check back for a new release. |
+| "Game build mismatch" warning | The game was recently updated. RaidForge may need an update to match — check the Releases page. |
 
 ## License
 
