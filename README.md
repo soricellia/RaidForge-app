@@ -1,6 +1,6 @@
 # RaidForge
 
-A desktop tool for Raid: Shadow Legends that reads your account data directly from the running game and exports it as structured JSON. Built for players who want full visibility into their roster, gear, and spending — without relying on screenshots or manual entry.
+A desktop tool for Raid: Shadow Legends that reads your account(s) data directly from the running game and exports it as structured JSON. This is a prototype until I get something working on the web browser.
 
 ## What It Does
 
@@ -17,11 +17,7 @@ All data is saved locally as JSON files. Nothing is uploaded, modified, or sent 
 
 ## Download
 
-**[Download the latest release](https://github.com/soricellia/RaidForge-app/releases/latest)**
-
-1. Download the `.zip` file from the link above.
-2. Extract it anywhere on your computer.
-3. Run **RaidForge.App.exe**.
+Head to the [Releases](https://github.com/soricellia/RaidForge-app/releases) page and download the latest `.zip`. Extract it anywhere and run **RaidForge.App.exe**.
 
 No .NET installation required — the download is fully self-contained.
 
